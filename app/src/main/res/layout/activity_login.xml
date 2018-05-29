@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ZhuCe.SignUpActivity">
+
+    <RelativeLayout
+        style="@style/dengluzhucelogin">
+
+        <TextView
+            style="@style/dengluzhuceBaizi"
+            android:text="@string/user_deng" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/login_user"
+        style="@style/dengluzhuceEdit"
+        android:hint="@string/photo" />
+
+    <EditText
+        android:id="@+id/login_pwd"
+        style="@style/dengluzhuceEdit"
+        android:hint="@string/pwd"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/dengluzhuceText"
+            android:layout_alignParentLeft="true"
+            android:text="@string/wangji"
+            android:id="@+id/wangjimima"/>
+        <TextView
+            style="@style/dengluzhuceText"
+            android:layout_alignParentRight="true"
+            android:text="@string/user_newzhuce"
+            android:id="@+id/login_zhuce"/>
+    </RelativeLayout>
+
+    <Button
+        style="@style/dengluzhucelogin"
+        android:id="@+id/login_btn"
+        android:layout_marginTop="20dp"
+        android:text="@string/deng"
+        android:textSize="25dp"/>
+</LinearLayout>

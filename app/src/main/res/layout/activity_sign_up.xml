@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ZhuCe.SignUpActivity">
+
+    <RelativeLayout
+        style="@style/dengluzhucelogin">
+
+        <TextView
+            style="@style/dengluzhuceBaizi"
+            android:text="@string/user_zhuce" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/signup_user"
+        style="@style/dengluzhuceEdit"
+        android:hint="@string/photo" />
+
+    <EditText
+        android:id="@+id/signup_pwd"
+        style="@style/dengluzhuceEdit"
+        android:hint="@string/pwd" />
+
+    <EditText
+        android:id="@+id/signup_again_pwd"
+        style="@style/dengluzhuceEdit"
+        android:hint="@string/possword" />
+
+
+    <Button
+        style="@style/dengluzhucelogin"
+        android:id="@+id/signup_btn"
+        android:layout_marginTop="20dp"
+        android:text="@string/zhuce"/>
+</LinearLayout>

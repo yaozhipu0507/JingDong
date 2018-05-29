@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_below="@+id/zhuyerecycleview"
+        android:id="@+id/rlms"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/lingdang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sy_tv_miao"
+            android:textSize="20dp"
+            android:textColor="#ff3660" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sy_tv_time"
+            android:textColor="#010148"
+            android:background="#11e6d7"/>
+
+        <TextView
+            android:id="@+id/shouye_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            android:textColor="#fff"
+            android:layout_marginRight="10dp"/>
+        <com.example.jingdong.LooperTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ltv"
+            android:textColor="#acf813" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/miao_recy"
+        ></android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>

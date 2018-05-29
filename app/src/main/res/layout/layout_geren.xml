@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/layout_login"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#DC3101">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dengluzhuce"
+                android:text="登录/注册"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="#0dec11"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/backLogin"
+                android:layout_alignParentRight="true">
+
+                <ImageView
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_user_setting"/>
+                <TextView
+                    android:layout_weight="0"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:text="@string/wode_tv_shezhi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/head_iv"
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_default_user_head" />
+
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/head_iv"
+                android:layout_marginTop="10dp"
+                android:text="@string/wode_tv_login"
+                android:textSize="20sp"
+                android:textColor="@drawable/textcolor"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/orderLinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/orderWaitDriveTextView"
+                style="@style/wodeText"
+                android:drawableTop="@drawable/ic_user_order_wait_drive"
+                android:text="@string/wode_tv_fu" />
+
+            <TextView
+                android:id="@+id/orderWaitReceiptTextView"
+                style="@style/wodeText"
+                android:drawableTop="@drawable/ic_user_order_wait_receipt"
+                android:text="@string/wode_tv_huo"/>
+
+            <TextView
+                android:id="@+id/orderWaitCommentTextView"
+                style="@style/wodeText"
+                android:drawableTop="@drawable/ic_user_order_wait_comment"
+                android:text="@string/wode_tv_ping" />
+
+            <TextView
+                android:id="@+id/orderWaitRefundTextView"
+                style="@style/wodeText"
+                android:drawableTop="@drawable/ic_user_order_wait_refund"
+                android:text="@string/wode_tv_tui" />
+
+            <TextView
+                android:id="@+id/orderWaitPayTextView"
+                style="@style/wodeText"
+                android:drawableTop="@drawable/wodedingdan"
+                android:text="@string/wode_tv_ding" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#f0f0f0" />
+
+        <LinearLayout
+            android:id="@+id/propertyLinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/propertyMoneyTextView"
+                style="@style/wodeText"
+                android:drawableTop="@drawable/ling"
+                android:text="@string/wode_tv_jing"/>
+
+            <TextView
+                android:id="@+id/propertyCardTextView"
+                style="@style/wodeText"
+                android:drawableTop="@drawable/ling"
+                android:text="@string/wode_tv_quan"/>
+
+            <TextView
+                android:id="@+id/propertyVouchersTextView"
+                style="@style/wodeText"
+                android:drawableTop="@drawable/lingdianling"
+                android:text="@string/wode_tv_baitiao"/>
+
+            <TextView
+                android:id="@+id/propertyRedTextView"
+                style="@style/wodeText"
+                android:drawableTop="@drawable/ling"
+                android:text="@string/wode_tv_jinku"/>
+
+            <TextView
+                android:id="@+id/propertyIntegralTextView"
+                style="@style/wodeText"
+                android:drawableTop="@drawable/wodeqianbao"
+                android:text="@string/wode_tv_price"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#f0f0f0" />
+
+        <LinearLayout
+            android:id="@+id/olineLinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/shopWaitDriveTextView"
+                style="@style/wodeText"
+                android:drawableTop="@drawable/shangpinguanzhu"
+                android:text="@string/wode_tv_shang" />
+
+            <TextView
+                android:id="@+id/dianpuWaitReceiptTextView"
+                style="@style/wodeText"
+                android:drawableTop="@drawable/dianpuguanzhu"
+                android:text="@string/wode_tv_dianpu"/>
+
+            <TextView
+                android:id="@+id/contentorderWaitCommentTextView"
+                style="@style/wodeText"
+                android:drawableTop="@drawable/neirongguanzhu"
+                android:text="@string/wode_tv_cang"/>
+
+            <TextView
+                android:id="@+id/liuWaitRefundTextView"
+                style="@style/wodeText"
+                android:drawableTop="@drawable/liulanjilu"
+                android:text="@string/wode_tv_liulan"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#f0f0f0" />
+
+        <LinearLayout
+            android:id="@+id/aolineLinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/activeWaitDriveTextView"
+                style="@style/wodeText"
+                android:drawableTop="@drawable/wodehuodong"
+                android:text="@string/wode_tv_huodong" />
+
+            <TextView
+                android:id="@+id/shequpuWaitReceiptTextView"
+                style="@style/wodeText"
+                android:drawableTop="@drawable/shequ"
+                android:text="@string/wode_tv_she"/>
+
+            <TextView
+                android:id="@+id/kehuorderWaitCommentTextView"
+                style="@style/wodeText"
+                android:drawableTop="@drawable/kehufuwu"
+                android:text="@string/wode_tv_kefu" />
+
+            <TextView
+                android:id="@+id/jingdongshop"
+                style="@style/wodeText"
+                android:drawableTop="@drawable/gouwuche2"
+                android:text="@string/wode_tv_chaoshi"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.4"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:id="@+id/address"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_user_address"/>
+                <TextView
+                    android:layout_weight="0"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/wode_tv_dizhi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/ic_normal_dot_left"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

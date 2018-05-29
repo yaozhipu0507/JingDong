@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">仿京东</string>
+    <string name="zxing_bar_name">ZxingLib</string>
+    <string name="shouye">首页</string>
+    <string name="fenlei">分类</string>
+    <string name="faxian">发现</string>
+    <string name="gouwu">购物车</string>
+    <string name="wode">我的</string>
+    <string name="user_deng">用户登录</string>
+    <string name="deng">登录</string>
+    <string name="user_zhuce">用户注册</string>
+    <string name="user_newzhuce">新用户注册</string>
+    <string name="zhuce">注册</string>
+    <string name="wangji">忘记密码</string>
+    <string name="photo">请输入手机号</string>
+    <string name="pwd">请输入密码</string>
+    <string name="possword">请再次输入密码</string>
+
+    <!--首页-->
+    <string name="sy_tv_miao">京东秒杀:</string>
+    <string name="sy_tv_time">10点场:</string>
+    <string name="sy_tv_tui">商品推荐</string>
+
+    <!--搜索-->
+    <string name="at_ev_name">格力京东超级品牌类</string>
+    <string name="at_sou_update">修改姓名</string>
+    <string name="at_sou_delete">删除</string>
+    <string name="at_sou_xiao">取消</string>
+    <string name="at_sou_lishi">历史搜索</string>
+    <string name="at_sou_sou">搜索</string>
+    <string name="at_sou_hao">几号</string>
+    <string name="et_sou_sou">请输入搜索内容</string>
+    <!--购物车-->
+    <string name="gouwu_tv_quanxuan">全选</string>
+    <string name="gouwu_tv_num">合计 ：</string>
+    <string name="gouwu_tv_sum">0</string>
+    <string name="gouwu_tv_dang">第八号当铺</string>
+    <string name="gouwu_tv_jie">结算(0)</string>
+
+    <!--我的-->
+    <string name="wode_tv_login">未登录,请登录</string>
+    <string name="wode_tv_fu">待付款</string>
+    <string name="wode_tv_huo">待收货</string>
+    <string name="wode_tv_ping">待评价</string>
+    <string name="wode_tv_tui">退款/货</string>
+    <string name="wode_tv_ding">我的订单</string>
+    <string name="wode_tv_jing">京豆</string>
+    <string name="wode_tv_quan">优惠券</string>
+    <string name="wode_tv_baitiao">白条</string>
+    <string name="wode_tv_jinku">京东小金库</string>
+    <string name="wode_tv_price">我的钱包</string>
+    <string name="wode_tv_shang">商品关注</string>
+    <string name="wode_tv_dianpu">店铺关注</string>
+    <string name="wode_tv_cang">内容收藏</string>
+    <string name="wode_tv_liulan">浏览记录</string>
+    <string name="wode_tv_huodong">我的活动</string>
+    <string name="wode_tv_she">社区</string>
+    <string name="wode_tv_kefu">客户服务</string>
+    <string name="wode_tv_chaoshi">京东超市</string>
+    <string name="wode_tv_dizhi">收货地址</string>
+    <string name="wode_tv_shezhi">设置</string>
+
+</resources>
